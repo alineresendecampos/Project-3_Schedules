@@ -1,0 +1,16 @@
+<h1 class="text-center mb-3">{{title}}</h1>
+
+<h4>All schedules</h4>
+
+<ul class="list-group">
+    {{#each results}}
+    <li class="list-group-item">{{this.username}} - {{lookup ../day this.dayofweek}} {{this.start_time}} -
+        {{this.end_time}}
+    </li>
+
+    {{/each}}
+
+</ul>
+
+
+<h4><a href="/new">Add a new schedule</a></h4>
