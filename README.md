@@ -4,15 +4,23 @@
 
 ## Project description :calendar:
 
-Task: Create a basic client-server web app.
-For this project was required to store data using MySQL database and display it in a browser.
+Client-server web app
 
-This project was developed for the course Full Stack JavaScript Web Development - INCO Academy.
+In this project, the user is able to create schedules and see all schedules displayed on a page on the browser.
+
+This project was developed for the apprenticeship Full Stack JavaScript Web Development - INCO Academy.
 
  ## Functionalities
  
 - a page to create a schedule
 - a page to display all existing schedules
+
+## Technologies & tools used:
+- [NodeJS](https://nodejs.org/en/download/)
+- [ExpressJS](https://expressjs.com)
+- [MySQL](https://dev.mysql.com/doc/)
+- [Bootstrap](https://getbootstrap.com)
+- [Handlebars](https://handlebarsjs.com)
 
  ## Prerequisites
  
